@@ -11,9 +11,9 @@ const Header = () => {
         const headerWrap = document.querySelector('.header-wrap');
 
         if (scrollY >= 100) {
-            gsap.to(headerWrap, { backgroundColor: '#000', duration: 0.5 });
+            gsap.to(headerWrap, { backgroundColor: '#000', duration: 1.5 });
         } else {
-            gsap.to(headerWrap, { backgroundColor: 'transparent', duration: 0.5 });
+            gsap.to(headerWrap, { backgroundColor: 'transparent', duration: 1.5 });
         }
     };
 

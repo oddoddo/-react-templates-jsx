@@ -4,7 +4,6 @@ import Header from './header/Header';
 import History from '../common/History';
 import Title from '../common/Tilte';
 import styled from 'styled-components';
-import { Children } from 'react';
 
 const Layout = ({ pagename, title, children }) => {
     return (

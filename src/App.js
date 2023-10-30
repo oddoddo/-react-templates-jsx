@@ -1,5 +1,5 @@
-import { CSSReset, ChakraProvider } from '@chakra-ui/react';
 import theme from './theme/index';
+import { CSSReset, ChakraProvider } from '@chakra-ui/react';
 import GlobalStyles from './theme/GlobalStyles.styles';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages';
